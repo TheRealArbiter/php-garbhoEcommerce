@@ -1,0 +1,177 @@
+/* TOP */
+
+#top ul{
+    padding-top: 8px;
+}
+#top ul li{
+    display: inline;
+    line-height: 30px;
+    margin: 0px 5px;
+    color: white;
+}
+
+.social ul li a i{
+    font-size: 18px;
+    margin: 0px 1px;
+}
+
+.register ul{
+    text-align: right;
+    font-size: 12px;
+}
+
+.register ul a {
+    color: white;
+}
+
+/*Header*/
+header #logo img{
+    padding: 20px 60px;
+    padding-left: 0px;
+}
+
+header #btnCategories{
+    margin: 20px 0;
+}
+
+header #btnCategories p{
+    line-height: 40px;
+    margin-bottom: 0px;
+    
+}
+
+header #btnCategories p span{
+    cursor: pointer;
+}
+
+header #finder {
+    margin: 20px 0px;
+}
+
+
+header #finder input{
+    padding: 19px;
+    border-radius: 0;
+}
+
+
+header #finder button{
+    padding: 9px;
+    border:1px solid silver;
+    border-radius: 0;
+}
+
+header #shopping-cart{
+    margin: 20px 0px;
+}
+
+header #shopping-cart button{
+    padding: 9px 15px;
+    border:1px solid silver;
+    border-radius: 0;
+}
+
+header #shopping-cart p {
+    padding: 2px;
+    padding-left: 60px;
+    border:1px solid #aaa;
+    font-size: 12px;
+}
+
+header #categories {
+    display: none;
+    margin-top: -10px;
+    position: relative;
+    border-right-style: solid;
+    border-right-width: 17px;
+    border-left-style: solid;
+    border-left-width: 17px;
+    padding-bottom: 30px;
+
+}
+
+header #categories h4{
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+header #categories hr{
+    border: 1px solid rgba(255, 255, 255, .3);
+}
+
+
+/*Large devices(>=1200px)*/
+@media(min-width: 1200px){
+
+    /*Header Logo*/
+    header #logo img{
+        padding: 20px 60px;
+        padding-left: 0px;
+    }
+
+    header #shopping-cart{
+        padding-left: 100px;
+    }
+}
+
+/* Medium desktop or Horizontal tablet (1024px)*/
+@media(max-width: 1199) and (min-width:992px){
+
+    /*Header Logo*/
+    header #logo img{
+        padding: 25px 60px;
+        padding-left: 0px;
+    }
+
+     header #shopping-cart{
+        padding-left: 70px;
+    }
+}
+/*Small desktop and vertical tablet*/
+@media(max-width:991px) and (min-width:768px){
+
+    /*Header Logo*/
+    header #logo img{
+        padding:30px 0px;
+    }
+
+     header #shopping-cart{
+        padding-left: 55px;
+    }
+
+     header #shopping-cart p{
+        display: none;
+    }
+
+}
+/*Mobile screen*/
+@media(max-width:767px){
+
+    /*Top*/
+    #top ul{
+        text-align: center;
+    }
+
+    #top #register{
+        border-top: 1px solid #222;
+    }
+
+
+    /*Header Logo*/
+    header #logo img{
+        padding: 30px;
+        padding-bottom: 10px;
+    }
+
+    header #categories{
+        margin-bottom: 10px;
+    }
+
+    header #finder{
+        margin-bottom: 10px;
+    }
+
+     header #shopping-cart{
+        margin: 0px;
+    }
+}

@@ -1,0 +1,182 @@
+/* Global */
+
+*{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans Pro', sans-serif;
+}
+
+/* Eliminates bootstrap´s padding default*/
+ul, ol{
+    padding: 0px;
+}
+a:visited, a:link, a:focus, a:hover, a:active{
+    list-style: none;
+    text-decoration: none;
+}
+
+.topBar{
+    background:black;
+}
+
+.topBar a{
+    background: black;
+}
+
+.backColor, .backColor a{
+    background: #47bac1;
+    color: white;
+}
+
+/* Social media*/
+
+.socialNet{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+/*Facebook*/
+.whiteFacebook{
+    color:white;
+}
+.blackFacebook{
+    color: black;
+}
+
+.colorFacebook{
+    color: white;
+    background: #46639f;
+}
+
+/* YouTube*/
+
+.whiteYoutube{
+    color: white;
+   
+}
+
+.blackYoutube{
+    color: black;
+}
+
+.youtubeColor{
+    color: white;
+    background:#d6513e;
+}
+
+/* Twitter*/
+
+.whiteTwitter{
+    color: white;
+}
+
+.blackTwitter{
+    color: black;
+}
+
+.colorTwitter{
+    color: white;
+    background: #0ab2e6;
+}
+
+/* Google Plus*/
+
+.whiteGoogle{
+    color: white;
+}
+
+.blackGoogle{
+    color: black;
+}
+
+.colorGoogle{
+    color: white;
+    background: #d71617;
+}
+
+/* Instagram*/
+
+.whiteInstagram{
+    color: white;
+}
+
+.blackInstagram{
+    color: black;
+}
+
+.colorInstagram{
+    color: white;
+    background: linear-gradient(45deg, #fca925, #ee1d5f, #6350a2);
+}
+
+/* =============================================
+    Error 404
+==============================================*/
+.error404{
+    color:#333;
+}
+
+ .btn.btn-default,
+.btn.btn-default:focus{
+  background-color:#47bac1;
+  color:#fff;
+}
+
+.btn.btn-default:active,
+.btn.btn-default:hover{
+  background-color:#47bac1;
+  color:#fff;
+}
+
+
+/*Large devices(>=1200px)*/
+@media(min-width: 1200px){
+    .col-lg-0{
+        display: none;
+    }
+
+    .error404 h1 {
+        font-size:300px;
+        text-shadow: 8px 8px 1px #dadada;
+    }
+}
+
+/* Medium desktop or Horizontal tablet (1024px)*/
+@media(max-width: 1199px) and (min-width:992px){
+     .col-md-0{
+        display: none;
+    }
+
+    .error404 h1 {
+        font-size:200px;
+        text-shadow: 6px 6px 1px #dadada;
+    }
+}
+/*Small desktop and vertical tablet*/
+@media(max-width:991px) and (min-width:768px){
+     .col-sm-0{
+        display: none;
+    }
+
+    .error404 h1 {
+        font-size:150px;
+        text-shadow: 4px 4px 1px #dadada;
+    }
+
+}
+
+/*Mobile screen*/
+@media(max-width:767px){
+     .col-xs-0{
+        display: none;
+    }
+
+    .error404 h1 {
+        font-size:75px;
+        text-shadow: 2px 2px 1px #dadada;
+    }
+}
